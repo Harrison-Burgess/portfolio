@@ -1,16 +1,30 @@
+@media only screen and (min-width: 401px){
 body {
-    background-color: #cf2935; 
+    background-color: gray; 
+}
+}
+@media only screen and (max-width: 400px){
+    body {
+        background-color: lightskyblue;
+    }
 }
 .center {
     margin: auto;
     width: 50%;
   }
+.menu {
+    border: 2px solid #000000;
+    width: 99%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
 h1 {
-
-    color: #870912;
+    
+    color: #000000;
     padding: 25px 50px;
-    background-color: aquamarine;
-    width: 400px;
+    background-color: rgb(22, 169, 238);
+    width: 75%;
     text-align: center;
     border-bottom: 5px solid black;
     border-right: 5px solid black;
@@ -20,14 +34,20 @@ p {
     font-family:
     font-size: 16px;
 }
+
 /*here is the navbar*/
+
 ul {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width:  140px;
-    background-color: #870912;
-}
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
 
 li a {
     display: block;
